@@ -14,5 +14,12 @@ class Program
         {
             Console.WriteLine(emp);
         }
+        
+        IEnumerable<Object> result7 = Tasks.Task7();
+
+        foreach (Object emp in result7)
+        {
+            Console.WriteLine(emp);
+        }
     }
 }
